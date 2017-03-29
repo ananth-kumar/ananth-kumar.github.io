@@ -9,7 +9,7 @@
             $scope.class = "";
             $scope.CheckLunch = function() {
                var listArrray  = $scope.LunchListComma.replace(/[, ]+/g, " ").trim().split(' ');
-               alert(listArrray);
+            //    alert(listArrray);
                if(!$scope.LunchListComma){
                     $scope.Message = "Please enter data first";
                     $scope.class = " alert-danger";
